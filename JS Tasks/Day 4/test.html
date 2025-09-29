@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>Hello, this is the first div!</div>
+    <div>This is the second div.</div>
+
+    <p id="my-p">This is my paragraph</p>
+
+    <div class="target-div">
+      <p>Wassup</p>
+    </div>
+
+    <input type="email" name="user-email" required />
+    <input type="text" />
+
+    <select id="my-select">
+      <option value="1">Abdo</option>
+      <option value="2">Sasa</option>
+      <option value="3" selected>Fares</option>
+      <option value="4">aaaa</option>
+    </select>
+
+    <div class="slider-container">
+      <img id="slider-image" src="resources/photo3.webp" alt="Slider" />
+
+      <div class="controls">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="startSlider()">Start</button>
+        <button onclick="stopSlider()">Stop</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+    </div>
+
+    <select id="country">
+      <option value="US">USA</option>
+      <option value="EG">Egypt</option>
+      <option value="KSA">Saudi Arabia</option>
+      <option value="UK">United kingdom</option>
+    </select>
+
+    <div id="container">
+      <p id="ref">The refrenced element</p>
+    </div>
+
+    <div id="div-2">
+      <p>Original paragraph</p>
+    </div>
+    <!-- 
+    <form id="my-form">
+      <input type="text" name="username" placeholder="Enter name" />
+      <input
+        type="email"
+        name="user-email"
+        placeholder="Enter email"
+        required
+      />
+
+      <select id="my-select">
+        <option value="1">Abdo</option>
+        <option value="2">Sasa</option>
+        <option value="3" selected>Fares</option>
+        <option value="4">aaaa</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form> -->
+
+    <div id="wrapper">
+      <p id="first">First</p>
+      <p id="second">Second</p>
+    </div>
+
+    <form>
+      <label>
+        Name:
+        <input type="text" id="nameInput" />
+      </label>
+      <br /><br />
+
+      <label>
+        Email:
+        <input type="email" id="emailInput" />
+      </label>
+      <br /><br />
+
+      <label>
+        City:
+        <select id="citySelect">
+          <option value="">--Choose a city--</option>
+          <option>Cairo</option>
+          <option>Alexandria</option>
+          <option>Giza</option>
+        </select>
+      </label>
+    </form>
+    <div class="output">
+      <p><strong>Name:</strong> <span id="nameOutput"></span></p>
+      <p><strong>Email:</strong> <span id="emailOutput"></span></p>
+      <p><strong>City:</strong> <span id="cityOutput"></span></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

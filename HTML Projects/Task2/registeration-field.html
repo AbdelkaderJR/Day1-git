@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./thankyou.html" method="GET" enctype="multipart/form-data">
+
+
+        <label for="firstname">First Name</label><br>
+        <input type="text" id="firstname" name="firstname" value="" required><br>
+
+        <label for="lastname">Last Name</label><br>
+        <input type="text" id="lastname" name="lastname" value="" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="" required><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" value="" required><br>
+
+        <label for="confirmpassword">Confirm Password</label><br>
+        <input type="password" id="confirmpassword" name="confirmpassword" value="" required><br>
+
+        <label for="date">Birthdate</label><br>
+        <input type="date" id="date" name="date" value="" required><br><br>
+
+        <label for="file">Upload file</label><br>
+        <input type="file" id="file" name="file" value="" required><br><br>
+
+        <b>Gender:</b><br>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="faculty">Faculty of:</label>
+
+        <select name="faculty" id="faculty">
+            <option value="engineer">Engineer</option>
+            <option value="computer">Computer Science</option>
+            <option value="science">Science</option>
+        </select><br>
+
+        <fieldset>
+            <legend>Interstes:</legend>
+
+            <div>
+                <input type="checkbox" id="swimming" name="swimming" checked />
+                <label for="swimming">Swimming</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="programming" name="programming" />
+                <label for="programming">Programming</label>
+            </div>
+            <div>
+                <input type="checkbox" id="reading" name="reading" />
+                <label for="reading">Reading</label>
+            </div>
+        </fieldset><br>
+
+        <label for="about">Tell me about yourself</label><br>
+
+        <textarea id="about" name="about" rows="4" cols="50">
+
+    </textarea> <br>
+
+        <b>I agreed to terms and condition</b>
+        <div>
+            <input type="checkbox" id="yes" name="yes" checked />
+            <label for="yes">Yes</label>
+        </div>
+
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

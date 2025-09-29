@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Linked List Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Linked List</h1>
+
+    <div class="controls">
+      <input id="valueInput" type="text" placeholder="Enter value" />
+      <button onclick="pushNode()">Push</button>
+      <button onclick="popNode()">Pop</button>
+      <button onclick="insertFirst()">Insert First</button>
+      <button onclick="insertAfter()">Insert After</button>
+      <button onclick="reverseList()">Reverse</button>
+    </div>
+
+    <div id="list" class="list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+
+/* 
+p{
+    color:red
+}
+
+p,div{
+   
+}
+
+#mydiv > p.mainClass{
+    color:aqua;
+
+}
+
+div p {
+    color:blue
+}
+
+input[type="text"].myClass{
+    background-color: brown;
+}
+
+div + span {
+    color: gold
+} */
+
+/* p.myClass {
+    color: chocolate;
+} */
+
+/* #mydiv{
+    background-color: blueviolet;
+}
+ */
+
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+ p, div, span {
+  font-family: "Lucida Calligraphy";
+}
+
+div > h1{
+    text-align: center;
+}
